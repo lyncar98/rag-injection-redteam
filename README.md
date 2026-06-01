@@ -2,7 +2,7 @@
 
 A small, dependency-light **red-team harness for indirect prompt injection** in RAG and agent systems. Point it at any callable that takes a user query plus retrieved context and returns a response, and it tries to make your system leak.
 
-Companion code for the article *"The model is not your security boundary: red-teaming indirect prompt injection in RAG and agents."*
+Companion code for the article [*"The model is not your security boundary: red-teaming indirect prompt injection in RAG and agents."*](https://medium.com/p/e6dd378d5e59)
 
 ## Why this exists
 

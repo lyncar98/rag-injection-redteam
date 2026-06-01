@@ -2,6 +2,8 @@
 
 *Why the most dangerous LLM vulnerability lives in the data your system retrieves — and how to build a harness that catches it before production does.*
 
+> Published version: https://medium.com/p/e6dd378d5e59
+
 ---
 
 In June 2025, researchers at Aim Labs disclosed EchoLeak (CVE-2025-32711), a zero-click flaw in Microsoft 365 Copilot. The attack needed no clicks, no malicious attachment to open, no credential phish. An attacker sent an ordinary-looking email. It sat in the inbox. When Copilot later retrieved that email as context to answer an unrelated question, hidden instructions inside it took over — and exfiltrated internal data to an attacker-controlled destination. Microsoft patched it server-side and reported no exploitation in the wild, but the significance outlived the CVE: it was the first documented case of indirect prompt injection weaponized for real data exfiltration in a production LLM system.
